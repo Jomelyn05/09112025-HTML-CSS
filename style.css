@@ -1,0 +1,24 @@
+body {
+    background-color: beige
+}
+
+pre {
+    color: #991a1a;
+    font-size:large;
+    font-style: normal;
+}
+
+img {
+    top: right;
+    margin: left;
+}
+
+h{
+    float: calc(1);
+}
+.logo{
+    text-indent: -999999px;
+    background: url('logo.jpeg');
+    width: 500px;
+    height:200px;
+}
