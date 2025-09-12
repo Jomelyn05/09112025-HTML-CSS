@@ -16,9 +16,3 @@ img {
 h{
     float: calc(1);
 }
-.logo{
-    text-indent: -999999px;
-    background: url('logo.jpeg');
-    width: 500px;
-    height:200px;
-}
