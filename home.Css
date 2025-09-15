@@ -1,0 +1,27 @@
+.header {
+    height: 15vh;
+    width: 95%;
+    padding: 0 8%;
+    background-color: aliceblue;
+    position: relative;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 95px;
+}
+.nav-links {
+    padding: 28px 0;
+}
+.nav-link li {
+    display: inline-block;
+    margin: 0 110px;
+}
+.nav-link li a {
+    text-decoration: none;
+    color: Gray;
+    padding: 10px 0;
+}

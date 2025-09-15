@@ -1,0 +1,23 @@
+body {
+    background-color: aliceblue;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background:#949292;
+}
+header logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+aside {
+    width: 60%;
+    float: left;
+}
+section {
+    width: 40%;
+    float: right;
+}
