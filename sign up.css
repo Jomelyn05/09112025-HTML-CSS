@@ -1,0 +1,17 @@
+body {
+    background-image: url(Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form {
+    display: flex;
+    position: relative;
+    top: 200px;
+    left: 500px;
+    padding: 25px;
+    border: solid;
+    width: 200px;
+    background-color: antiquewhite;
+    height: auto;
+}

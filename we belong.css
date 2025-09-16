@@ -1,0 +1,131 @@
+h1 {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px;
+}
+
+pre {
+    border-style: outset;
+}
+
+aside {
+    width: 60%;
+    float: left;
+}
+
+section {
+    width: 38%;
+    float: right;
+}
+
+#descriptions p{
+    background-color: bisque;
+    display: none;
+}
+
+#descriptions:hover p{
+    display: block;
+}
+
+p::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+
+p::first-line{
+    background-color: aliceblue;
+}
+
+p::selection {
+    color: brown;
+    background-color: azure;
+}
+
+pre::selection {
+    color: green;
+    background-color: black;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.pagination a {
+    color: black;
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.pagination a.active {
+    background-color: aquamarine;
+    font-weight: bold;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #949292;
+}
+
+.dropdown button {
+    background-color: aliceblue;
+    cursor: pointer;
+    border: none;
+    font-size: large;
+}
+
+.dropdown a{
+    display: block;
+    color: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: azure;
+
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: gray;
+}
+
+h2{
+    text-align: center;
+}
+
+.nav-bar ul{
+    list-style-type: none;
+    padding: 10px;
+    background-color: gray;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.nav-bar a {
+    text-align: center;
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 25px;
+}
+
+.nav-bar a:hover {
+    background-color: black;
+    color: rgb(138, 99, 99);
+}
+
+.nav-bar li {
+    float: left;
+}
+
+body {
+    background-image: url(picture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

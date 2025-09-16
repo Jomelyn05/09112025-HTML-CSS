@@ -21,3 +21,37 @@ section {
     width: 40%;
     float: right;
 }
+
+pre {
+    font-size: 1em;
+    font-style: normal;
+}
+
+form {
+    background-color: azure;
+}
+pre::selection {
+    color: chocolate;
+    background-color: cyan;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.pagination a {
+    color: black;
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.pagination a.active {
+    background-color: aquamarine;
+    font-weight: bold;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #949292;
+}
